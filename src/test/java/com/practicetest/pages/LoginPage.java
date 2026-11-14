@@ -1,6 +1,7 @@
 package com.practicetest.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,8 +38,14 @@ public class LoginPage extends BasePage {
         return this;
     }
 
+    // The promo popup can be injected while this step is waiting (it's timer-driven, not tied to
+    // page load), so each poll clears it before checking for the OTP input.
     public boolean isOtpScreenDisplayed() {
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(otpDigitInput(0))) != null;
+        return wait.until(d -> {
+            removeStrayPromoPopup();
+            List<WebElement> inputs = d.findElements(otpDigitInput(0));
+            return !inputs.isEmpty() && inputs.get(0).isDisplayed();
+        });
     }
 
     public LoginPage enterOtp(String otp) {
@@ -62,7 +69,7 @@ public class LoginPage extends BasePage {
             WebElement button = buttons.get(0);
             if (button.isEnabled()) {
                 try {
-                    button.click();
+                    ((JavascriptExecutor) d).executeScript("arguments[0].click();", button);
                 } catch (StaleElementReferenceException ignored) {
                     // Re-rendered after the enabled check; next poll will re-fetch.
                 }

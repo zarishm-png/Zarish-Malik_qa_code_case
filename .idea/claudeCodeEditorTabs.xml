@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="3f2803fd-3df2-4b9a-99d3-b1bf40717475" />
+    <option name="activeSessionId" value="6d288fa6-5f48-443f-ad7c-8f9459bb3f03" />
     <option name="openSessionIds">
       <list>
         <option value="7cb000f1-6dbd-49bd-ae01-b52e680c00d3" />
@@ -41,6 +41,8 @@
         <option value="646424f7-233d-49c7-8b57-7bf2df57b4d8" />
         <option value="9f184545-9969-4ac2-ac87-b5ab07d7a43b" />
         <option value="3f2803fd-3df2-4b9a-99d3-b1bf40717475" />
+        <option value="4950395c-4f93-4782-a705-3f255a7df329" />
+        <option value="6d288fa6-5f48-443f-ad7c-8f9459bb3f03" />
       </list>
     </option>
     <option name="sessionPaths">
@@ -57,9 +59,11 @@
         <entry key="422829b3-7f17-46da-9c3c-0427c8ae36bd" value="/sessions/2dd1d4d8-8b98-48b3-aeee-c6db067b6219" />
         <entry key="43cd890c-afb8-43cd-a817-b8f7da6af8f8" value="/sessions/f03770a2-7452-4c8a-9b0d-58de94cc78af" />
         <entry key="44901c30-7b55-4a2d-b72d-ab878455e862" value="/sessions/1ede5798-c007-4d42-a8c2-227c68262ba6" />
+        <entry key="4950395c-4f93-4782-a705-3f255a7df329" value="/sessions/1da5b47c-645d-4185-b4d4-ef1fbdcc7cec" />
         <entry key="63d2bdc8-1bb1-4926-83c2-aac94e97eece" value="/sessions/13fb9ede-982e-4944-9cca-bd16f2305227" />
         <entry key="646424f7-233d-49c7-8b57-7bf2df57b4d8" value="/sessions/6cfefe67-03aa-4111-bb1e-6b7d87850cbc" />
         <entry key="6d278b38-c4a5-4d54-8b38-0e21a14af049" value="/sessions/097f3e9f-da98-4616-816f-cb1295ec0e5d" />
+        <entry key="6d288fa6-5f48-443f-ad7c-8f9459bb3f03" value="/sessions/88d8e3cd-ef3b-4596-b601-7b1ab0b563be" />
         <entry key="7cb000f1-6dbd-49bd-ae01-b52e680c00d3" value="/sessions/8be7c798-766a-42ce-8e30-eed821d7488a" />
         <entry key="819d6082-e80b-45d1-b1d6-18b56336dcbb" value="/sessions/856632db-abc7-43b0-abf5-8f61f9478076" />
         <entry key="83bb37b0-3170-4fa8-b4e8-9a54083eeb42" value="/sessions/new" />
@@ -96,9 +100,11 @@
         <entry key="422829b3-7f17-46da-9c3c-0427c8ae36bd" value="resolve all errors" />
         <entry key="43cd890c-afb8-43cd-a817-b8f7da6af8f8" value="app login why we are finding this By.id: login-mod" />
         <entry key="44901c30-7b55-4a2d-b72d-ab878455e862" value="i have added Mobile_number= 501234567 otp= 4040" />
+        <entry key="4950395c-4f93-4782-a705-3f255a7df329" value="base url in code is justlife but why in repo showi" />
         <entry key="63d2bdc8-1bb1-4926-83c2-aac94e97eece" value="apply assertion after login page title" />
         <entry key="646424f7-233d-49c7-8b57-7bf2df57b4d8" value="After login on home page taking time more and user" />
         <entry key="6d278b38-c4a5-4d54-8b38-0e21a14af049" value="solve the errors" />
+        <entry key="6d288fa6-5f48-443f-ad7c-8f9459bb3f03" value="my test cases failed, please correct this" />
         <entry key="7cb000f1-6dbd-49bd-ae01-b52e680c00d3" value="Prepare test scenarios for the website using Cucum" />
         <entry key="819d6082-e80b-45d1-b1d6-18b56336dcbb" value="fix all errors from code" />
         <entry key="83bb37b0-3170-4fa8-b4e8-9a54083eeb42" value="Claude Code" />

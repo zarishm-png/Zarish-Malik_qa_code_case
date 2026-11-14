@@ -35,6 +35,14 @@ public abstract class BasePage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
 
+    // The site's promo popup is injected on a timer and isn't tied to page load, so it can appear
+    // mid-flow (e.g. covering the login modal) well after the homepage's own dismissal ran. Safe to
+    // call on every poll: the selector simply matches nothing once the popup is gone.
+    protected void removeStrayPromoPopup() {
+        ((JavascriptExecutor) driver).executeScript(
+                "document.querySelectorAll('ct-web-popup-imageonly, ct-web-popup').forEach(e => e.remove());");
+    }
+
     protected String getTitle() {
         return driver.getTitle();
     }

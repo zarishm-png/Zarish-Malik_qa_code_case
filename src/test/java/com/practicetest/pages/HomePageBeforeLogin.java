@@ -2,7 +2,6 @@ package com.practicetest.pages;
 
 import com.practicetest.config.ConfigReader;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -49,23 +48,21 @@ public class HomePageBeforeLogin extends BasePage {
     private void dismissCookieBanner() {
         try {
             new WebDriverWait(driver, Duration.ofSeconds(3))
-                    .until(d -> d.findElements(COOKIE_OKAY_BUTTON).size() > 0)
-                    ;
+                    .until(d -> d.findElements(COOKIE_OKAY_BUTTON).size() > 0);
             waitForClickable(COOKIE_OKAY_BUTTON).click();
         } catch (TimeoutException ignored) {
             // Banner didn't appear for this session.
         }
     }
 
-    // The promo popup is injected a few seconds after load and sits above the header; removing it
-    // avoids it silently swallowing the user menu click. Only the first scenario of a run actually
-    // sees it, so the timeout stays short.
+    // The promo popup is injected on a timer (not tied to load) and sits above the header; removing
+    // it avoids it silently swallowing the user menu click. It can also reappear later in the flow -
+    // see LoginPage.isOtpScreenDisplayed(), which clears it again while waiting for the OTP screen.
     private void dismissPromoPopup() {
         try {
             new WebDriverWait(driver, Duration.ofSeconds(4))
                     .until(d -> d.findElements(PROMO_POPUP).size() > 0);
-            ((JavascriptExecutor) driver).executeScript(
-                    "document.querySelectorAll('ct-web-popup-imageonly, ct-web-popup').forEach(e => e.remove());");
+            removeStrayPromoPopup();
         } catch (TimeoutException ignored) {
             // Popup didn't appear for this session.
         }

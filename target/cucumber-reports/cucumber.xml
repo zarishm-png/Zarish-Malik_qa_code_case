@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="45.457" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Justlife Dubai login" name="Log in successfully with a valid mobile number and OTP" time="24.163">
+<system-out><![CDATA[
+Given the user is on the Justlife Dubai homepage............................passed
+When the user clicks the login button.......................................passed
+Then the login page should be displayed.....................................passed
+When the user enters their mobile number....................................passed
+And the user requests an OTP................................................passed
+Then the OTP screen should be displayed.....................................passed
+When the user enters the OTP................................................passed
+And the user submits the OTP................................................passed
+Then the user should be logged in successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Cleaning booking" name="Book a Home Cleaning session through to checkout" time="20.561">
+<system-out><![CDATA[
+Given the user is on the Justlife Dubai homepage............................passed
+When the user selects the Home Cleaning service.............................passed
+Then the Home Cleaning details page should be displayed.....................passed
+When the user confirms the booking address..................................passed
+And the user proceeds to the add-ons step...................................passed
+And the user skips the add-ons step.........................................passed
+And the user confirms the booking frequency.................................passed
+And the user proceeds to checkout...........................................passed
+Then the checkout page should be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

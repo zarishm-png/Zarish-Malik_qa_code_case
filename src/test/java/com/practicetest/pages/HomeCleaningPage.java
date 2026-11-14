@@ -3,10 +3,12 @@ package com.practicetest.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 // Page object for the Home Cleaning booking funnel: details -> add-ons -> date & time -> checkout.
 public class HomeCleaningPage extends BasePage {
@@ -53,7 +55,14 @@ public class HomeCleaningPage extends BasePage {
     }
 
     // "Next" shares the same id across the details, add-ons and date & time steps of the funnel.
+    // On the date & time step it briefly carries an is-loading class while professional
+    // availability refreshes after a frequency change; clicking through that state submits before
+    // the step is ready and leaves the funnel stuck, so wait for the spinner to clear first.
     public HomeCleaningPage clickNext() {
+        wait.until(d -> {
+            List<WebElement> buttons = d.findElements(NEXT_BUTTON);
+            return !buttons.isEmpty() && !buttons.get(0).getAttribute("class").contains("is-loading");
+        });
         jsClick(NEXT_BUTTON);
         return this;
     }
