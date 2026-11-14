@@ -1,6 +1,8 @@
 # Practice Test — Cucumber + Selenium (Java)
 
-Automated UI test suite for Google search, built with **Cucumber (BDD)**, **Selenium WebDriver**, and **JUnit 4**, following the **Page Object Model**.
+Automated UI test suite for the **Justlife Dubai** website, built with
+**Cucumber (BDD)**, **Selenium WebDriver**, and **JUnit 4**, following the
+**Page Object Model**.
 
 ## Tech stack
 
@@ -18,24 +20,26 @@ Automated UI test suite for Google search, built with **Cucumber (BDD)**, **Sele
 ```
 src/test/java/com/practicetest/
 ├── config/
-│   └── ConfigReader.java        # reads config.properties
+│   └── ConfigReader.java          # reads config.properties
 ├── driver/
-│   └── DriverFactory.java       # thread-safe WebDriver creation/teardown
+│   └── DriverFactory.java         # thread-safe WebDriver creation/teardown
 ├── pages/
-│   ├── BasePage.java            # shared explicit-wait helpers
-│   ├── GoogleHomePage.java      # Page Object: homepage search box
-│   └── GoogleResultsPage.java   # Page Object: results page
+│   ├── BasePage.java              # shared explicit-wait helpers
+│   ├── HomePageBeforeLogin.java   # Page Object: homepage (pre-login)
+│   ├── LoginPage.java             # Page Object: mobile number + OTP login
+│   └── HomeCleaningPage.java      # Page Object: Home Cleaning booking flow
 ├── hooks/
-│   └── Hooks.java               # @Before/@After — driver lifecycle, failure screenshots
+│   └── Hooks.java                 # @Before/@After — driver lifecycle, failure screenshots
 ├── stepdefinitions/
-│   └── GoogleSearchSteps.java   # Gherkin step implementations
+│   └── Steps.java                 # Gherkin step implementations
 └── runner/
-    └── TestRunner.java          # Cucumber + JUnit entry point
+    └── TestRunner.java            # Cucumber + JUnit entry point
 
 src/test/resources/
-├── config.properties            # base.url, browser, wait timeouts
+├── config.properties              # base.url, mobile number, OTP, browser, wait timeouts
 └── features/
-    └── GoogleSearch.feature     # Scenario Outline with Examples table
+    ├── 1_Login.feature            # Login via mobile number + OTP
+    └── 2_HomeCleaning.feature     # Home Cleaning booking through to checkout
 ```
 
 ## Setup
@@ -50,10 +54,13 @@ src/test/resources/
 
 ### Configuration
 
-Edit `src/test/resources/config.properties` to change target site or browser:
+Edit `src/test/resources/config.properties` to change target site, test
+credentials, or browser:
 
 ```properties
-base.url=https://www.google.com
+base.url=https://www.justlife.com/en-AE
+Mobile_number= 501234567
+otp= 4040
 browser=chrome
 implicit.wait.seconds=5
 explicit.wait.seconds=10
@@ -66,25 +73,15 @@ mvn test
 ```
 
 This executes `TestRunner`, which drives Cucumber against every scenario
-in `src/test/resources/features/GoogleSearch.feature`.
+in `src/test/resources/features/`.
 
-## Test scenario
+## Test scenarios
 
-`GoogleSearch.feature` uses a **Scenario Outline** to run the same search
-flow against multiple search terms via an `Examples` table:
-
-```gherkin
-Scenario Outline: Search for a term and verify results
-  When the user searches for "<searchTerm>"
-  Then the results page title should contain "<searchTerm>"
-  And at least one search result should be displayed
-
-  Examples:
-    | searchTerm          |
-    | Selenium WebDriver   |
-    | Cucumber Java        |
-    | Justlife App         |
-```
+- **`1_Login.feature`** — logs in to Justlife Dubai using a mobile number
+  and OTP, verifying the login page, OTP screen, and successful login.
+- **`2_HomeCleaning.feature`** — starts from the homepage, books a Home
+  Cleaning service, confirms the address, skips add-ons, confirms a
+  one-time frequency, and verifies the checkout page is reached.
 
 ## Reports
 
@@ -103,7 +100,5 @@ failed scenario (see `Hooks.tearDown`).
   objects and make assertions.
 - **Thread-safe driver**: `DriverFactory` uses a `ThreadLocal<WebDriver>`
   so the suite is safe to parallelize later.
-- **Externalized config**: base URL, browser, and timeouts are not
-  hardcoded — they come from `config.properties`.
-- `base.url` currently points to a placeholder/dummy value
-  (`https://www.google.com`); replace it with your target environment URL.
+- **Externalized config**: base URL, test credentials, browser, and
+  timeouts are not hardcoded — they come from `config.properties`.
