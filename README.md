@@ -88,7 +88,13 @@ in `src/test/resources/features/`.
 After running `mvn test`, reports are generated at:
 
 - `target/cucumber-reports/cucumber.html`
-- `target/cucumber-reports/cucumber.json`
+- `target/cucumber-reports/cucumber.json` — machine-readable JSON report
+- `target/cucumber-reports/cucumber.xml` — JUnit-style XML report (for CI
+  dashboards that parse JUnit XML)
+
+`target/` is excluded from version control except for `cucumber-reports/`,
+so the JSON/XML results are tracked in the repository and get committed
+after each test run.
 
 Screenshots are automatically attached to the Cucumber report for any
 failed scenario (see `Hooks.tearDown`).
