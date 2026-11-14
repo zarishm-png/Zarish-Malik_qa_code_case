@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeEditorTabs">
+    <option name="activeSessionId" value="3f2803fd-3df2-4b9a-99d3-b1bf40717475" />
+    <option name="openSessionIds">
+      <list>
+        <option value="7cb000f1-6dbd-49bd-ae01-b52e680c00d3" />
+        <option value="128f0498-185b-40fc-827b-82df4abead14" />
+        <option value="a3f6a808-223b-4bbe-a5b1-b1831ab1d078" />
+        <option value="32dab955-3b21-46a9-a619-124ec40fadfa" />
+        <option value="6d278b38-c4a5-4d54-8b38-0e21a14af049" />
+        <option value="e987c347-1eec-4130-bbef-7fd96ae97fd4" />
+        <option value="83bb37b0-3170-4fa8-b4e8-9a54083eeb42" />
+        <option value="422829b3-7f17-46da-9c3c-0427c8ae36bd" />
+        <option value="bc41ba9a-97ef-4fea-8a19-c4fa22367367" />
+        <option value="c23e9cd9-a22d-4f7c-925d-8c6ecf9fc4a1" />
+        <option value="a1b7b8de-0d42-4dd8-ba87-35de9e9eb151" />
+        <option value="f0958bc2-1dc0-4677-95ed-21da614b5843" />
+        <option value="ff7e2349-8a79-446d-95fc-ddb2b7d0f5b2" />
+        <option value="06f1d4a4-9ebb-4bbc-b9bf-6201e0d803fb" />
+        <option value="19e4e709-aaf8-48b1-b4a8-d515638de321" />
+        <option value="2404c9b0-0159-45bd-adb6-b31e8dc4aa86" />
+        <option value="dc53fe93-c6b1-45c7-9e74-a754687c4b28" />
+        <option value="44901c30-7b55-4a2d-b72d-ab878455e862" />
+        <option value="0fc6151d-f883-45eb-8405-9eb6ec55bdab" />
+        <option value="a8a97ccd-6a0e-4a50-b047-256c1561e6de" />
+        <option value="2b0e6971-bcf2-4a6e-997a-dafec1e35c5a" />
+        <option value="aaa5e7ec-7c4e-4732-9030-a707885ed4d5" />
+        <option value="b269d266-f5e3-4e66-911f-852d47d8b407" />
+        <option value="3aa4508a-7e57-415e-9a77-839779220e63" />
+        <option value="db78bbc9-efae-47d8-9970-372c73d0775c" />
+        <option value="d1f58644-fe41-4613-990d-45aac9328ba8" />
+        <option value="819d6082-e80b-45d1-b1d6-18b56336dcbb" />
+        <option value="8d0cd77f-8b5c-425a-8af4-073ca079673c" />
+        <option value="39ce33ee-e07f-42f4-badf-3e34323ff77e" />
+        <option value="43cd890c-afb8-43cd-a817-b8f7da6af8f8" />
+        <option value="9f7d379a-6f05-4f34-8c4d-9f0af466fe18" />
+        <option value="63d2bdc8-1bb1-4926-83c2-aac94e97eece" />
+        <option value="ae6d5592-e202-4e60-8caf-321fb2a53135" />
+        <option value="e4929a15-28e4-4b74-99c0-13c698abe9bb" />
+        <option value="646424f7-233d-49c7-8b57-7bf2df57b4d8" />
+        <option value="9f184545-9969-4ac2-ac87-b5ab07d7a43b" />
+        <option value="3f2803fd-3df2-4b9a-99d3-b1bf40717475" />
+      </list>
+    </option>
+    <option name="sessionPaths">
+      <map>
+        <entry key="06f1d4a4-9ebb-4bbc-b9bf-6201e0d803fb" value="/sessions/new" />
+        <entry key="0fc6151d-f883-45eb-8405-9eb6ec55bdab" value="/sessions/9b6d01bf-67e8-400d-a8b7-5d87e3deef93" />
+        <entry key="128f0498-185b-40fc-827b-82df4abead14" value="/sessions/new" />
+        <entry key="19e4e709-aaf8-48b1-b4a8-d515638de321" value="/sessions/new" />
+        <entry key="2404c9b0-0159-45bd-adb6-b31e8dc4aa86" value="/sessions/f694c1e8-08c0-4d26-a0ad-c429429969e8" />
+        <entry key="32dab955-3b21-46a9-a619-124ec40fadfa" value="/sessions/73ed5455-6793-43b0-b739-ee92a31938a2" />
+        <entry key="39ce33ee-e07f-42f4-badf-3e34323ff77e" value="/sessions/2f8a08bb-2eca-476e-a411-c9d251c78456" />
+        <entry key="3aa4508a-7e57-415e-9a77-839779220e63" value="/sessions/de000696-ea92-483a-8d1f-dc919b600ad5" />
+        <entry key="3f2803fd-3df2-4b9a-99d3-b1bf40717475" value="/sessions/163d257c-c34a-475a-88b4-30a56085f25a" />
+        <entry key="422829b3-7f17-46da-9c3c-0427c8ae36bd" value="/sessions/2dd1d4d8-8b98-48b3-aeee-c6db067b6219" />
+        <entry key="43cd890c-afb8-43cd-a817-b8f7da6af8f8" value="/sessions/f03770a2-7452-4c8a-9b0d-58de94cc78af" />
+        <entry key="44901c30-7b55-4a2d-b72d-ab878455e862" value="/sessions/1ede5798-c007-4d42-a8c2-227c68262ba6" />
+        <entry key="63d2bdc8-1bb1-4926-83c2-aac94e97eece" value="/sessions/13fb9ede-982e-4944-9cca-bd16f2305227" />
+        <entry key="646424f7-233d-49c7-8b57-7bf2df57b4d8" value="/sessions/6cfefe67-03aa-4111-bb1e-6b7d87850cbc" />
+        <entry key="6d278b38-c4a5-4d54-8b38-0e21a14af049" value="/sessions/097f3e9f-da98-4616-816f-cb1295ec0e5d" />
+        <entry key="7cb000f1-6dbd-49bd-ae01-b52e680c00d3" value="/sessions/8be7c798-766a-42ce-8e30-eed821d7488a" />
+        <entry key="819d6082-e80b-45d1-b1d6-18b56336dcbb" value="/sessions/856632db-abc7-43b0-abf5-8f61f9478076" />
+        <entry key="83bb37b0-3170-4fa8-b4e8-9a54083eeb42" value="/sessions/new" />
+        <entry key="8d0cd77f-8b5c-425a-8af4-073ca079673c" value="/sessions/91236f53-3d1b-4ac7-afeb-5aa27baa3eb6" />
+        <entry key="9f184545-9969-4ac2-ac87-b5ab07d7a43b" value="/sessions/0f0825e9-3759-4dac-9042-4e9ffd42f76a" />
+        <entry key="9f7d379a-6f05-4f34-8c4d-9f0af466fe18" value="/sessions/b78ab199-551a-4c33-8706-44bb8cf1d392" />
+        <entry key="a1b7b8de-0d42-4dd8-ba87-35de9e9eb151" value="/sessions/d38b3d07-66a4-4caf-82c7-d7c5b913b369" />
+        <entry key="a8a97ccd-6a0e-4a50-b047-256c1561e6de" value="/sessions/e8574285-3d7d-4b25-a4a4-5cf9e45477d8" />
+        <entry key="aaa5e7ec-7c4e-4732-9030-a707885ed4d5" value="/sessions/10abe7a0-e471-490f-85dd-64d070303cc9" />
+        <entry key="ae6d5592-e202-4e60-8caf-321fb2a53135" value="/sessions/3df735e3-fc81-4662-8cd6-476864863a17" />
+        <entry key="b269d266-f5e3-4e66-911f-852d47d8b407" value="/sessions/new" />
+        <entry key="bc41ba9a-97ef-4fea-8a19-c4fa22367367" value="/sessions/a9c2422b-270a-4d22-a3fd-47373a80be78" />
+        <entry key="c23e9cd9-a22d-4f7c-925d-8c6ecf9fc4a1" value="/sessions/816fb145-6c30-4fbd-9d30-63fe2678dcd2" />
+        <entry key="d1f58644-fe41-4613-990d-45aac9328ba8" value="/sessions/48d26301-a94f-432b-b2d9-01c27ca2f3d3" />
+        <entry key="db78bbc9-efae-47d8-9970-372c73d0775c" value="/sessions/19b0acd8-c08e-420b-a63f-4b806833d123" />
+        <entry key="dc53fe93-c6b1-45c7-9e74-a754687c4b28" value="/sessions/new" />
+        <entry key="e4929a15-28e4-4b74-99c0-13c698abe9bb" value="/sessions/2391c16b-6c5e-45f6-9129-edec817bd9b0" />
+        <entry key="e987c347-1eec-4130-bbef-7fd96ae97fd4" value="/sessions/e1adf76e-dcb1-4306-b181-319f9a898100" />
+        <entry key="f0958bc2-1dc0-4677-95ed-21da614b5843" value="/sessions/new" />
+        <entry key="ff7e2349-8a79-446d-95fc-ddb2b7d0f5b2" value="/sessions/new" />
+      </map>
+    </option>
+    <option name="sessionTitles">
+      <map>
+        <entry key="06f1d4a4-9ebb-4bbc-b9bf-6201e0d803fb" value="Claude Code" />
+        <entry key="0fc6151d-f883-45eb-8405-9eb6ec55bdab" value="add test cases in loginpage where user will use mo" />
+        <entry key="128f0498-185b-40fc-827b-82df4abead14" value="Claude Code" />
+        <entry key="19e4e709-aaf8-48b1-b4a8-d515638de321" value="Claude Code" />
+        <entry key="2404c9b0-0159-45bd-adb6-b31e8dc4aa86" value="Mobile_number= 501234567 otp= 4040" />
+        <entry key="32dab955-3b21-46a9-a619-124ec40fadfa" value="open this URL https://www.theentertainerme.com/ an" />
+        <entry key="39ce33ee-e07f-42f4-badf-3e34323ff77e" value="user is login succesfully but still got error" />
+        <entry key="3aa4508a-7e57-415e-9a77-839779220e63" value="hi" />
+        <entry key="3f2803fd-3df2-4b9a-99d3-b1bf40717475" value="Ensure test results are reported in XML or JSON fo" />
+        <entry key="422829b3-7f17-46da-9c3c-0427c8ae36bd" value="resolve all errors" />
+        <entry key="43cd890c-afb8-43cd-a817-b8f7da6af8f8" value="app login why we are finding this By.id: login-mod" />
+        <entry key="44901c30-7b55-4a2d-b72d-ab878455e862" value="i have added Mobile_number= 501234567 otp= 4040" />
+        <entry key="63d2bdc8-1bb1-4926-83c2-aac94e97eece" value="apply assertion after login page title" />
+        <entry key="646424f7-233d-49c7-8b57-7bf2df57b4d8" value="After login on home page taking time more and user" />
+        <entry key="6d278b38-c4a5-4d54-8b38-0e21a14af049" value="solve the errors" />
+        <entry key="7cb000f1-6dbd-49bd-ae01-b52e680c00d3" value="Prepare test scenarios for the website using Cucum" />
+        <entry key="819d6082-e80b-45d1-b1d6-18b56336dcbb" value="fix all errors from code" />
+        <entry key="83bb37b0-3170-4fa8-b4e8-9a54083eeb42" value="Claude Code" />
+        <entry key="8d0cd77f-8b5c-425a-8af4-073ca079673c" value="solve all red errors" />
+        <entry key="9f184545-9969-4ac2-ac87-b5ab07d7a43b" value="dont open side menu on home page, start click on h" />
+        <entry key="9f7d379a-6f05-4f34-8c4d-9f0af466fe18" value="After login please add assertion on title &quot;justlif" />
+        <entry key="a1b7b8de-0d42-4dd8-ba87-35de9e9eb151" value="hit the website and login using mobile number and" />
+        <entry key="a8a97ccd-6a0e-4a50-b047-256c1561e6de" value="hi" />
+        <entry key="aaa5e7ec-7c4e-4732-9030-a707885ed4d5" value="project run" />
+        <entry key="ae6d5592-e202-4e60-8caf-321fb2a53135" value="1st run login test case and before run home cleani" />
+        <entry key="b269d266-f5e3-4e66-911f-852d47d8b407" value="Claude Code" />
+        <entry key="bc41ba9a-97ef-4fea-8a19-c4fa22367367" value="remove google related all, just open the entertain" />
+        <entry key="c23e9cd9-a22d-4f7c-925d-8c6ecf9fc4a1" value="where is entertainer url?" />
+        <entry key="d1f58644-fe41-4613-990d-45aac9328ba8" value="i'm trying to run code via test runner but gettin" />
+        <entry key="db78bbc9-efae-47d8-9970-372c73d0775c" value="test" />
+        <entry key="dc53fe93-c6b1-45c7-9e74-a754687c4b28" value="Claude Code" />
+        <entry key="e4929a15-28e4-4b74-99c0-13c698abe9bb" value="while running through runner &quot;Maven resources comp" />
+        <entry key="e987c347-1eec-4130-bbef-7fd96ae97fd4" value="Cannot resolve symbol 'openqa', getting red colore" />
+        <entry key="f0958bc2-1dc0-4677-95ed-21da614b5843" value="Claude Code" />
+        <entry key="ff7e2349-8a79-446d-95fc-ddb2b7d0f5b2" value="Claude Code" />
+      </map>
+    </option>
+  </component>
+</project>
